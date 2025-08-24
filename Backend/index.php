@@ -8,4 +8,8 @@ session_start();
         }
     }
 ?>
-<h1>Hello Admin</h1>
+
+<?php 
+    include '../components/sidebar.php';
+?>
+<h1>Dashboard</h1>
